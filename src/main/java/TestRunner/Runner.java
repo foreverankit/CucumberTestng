@@ -11,7 +11,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 @CucumberOptions(
-        features="/home/ankit/selenium/CucumberTestng/src/main/java/Features",
+        features="/home/ankit/kaiburr-projects/selenium/CucumberTestng/src/main/java/Features",
         glue={"StepDefinition"},
         tags = {"~@Ignore"},
         format = {
